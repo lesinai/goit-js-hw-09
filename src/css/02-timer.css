@@ -1,0 +1,41 @@
+body {
+  background-color: #fff;
+}
+
+input {
+  background-color: #eaefbe;
+
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  column-gap: 10px;
+}
+
+.value {
+  display: block;
+  text-align: center;
+
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+}
